@@ -1,0 +1,131 @@
+.krst-icon,
+.results-information-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+.krst-icon {
+  object-fit: cover;
+}
+.results-information-child {
+  background-color: var(--color-black);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  opacity: 0.25;
+}
+.results-information-item {
+  position: absolute;
+  bottom: 142px;
+  left: 112px;
+  background-color: var(--color-black);
+  width: 1339px;
+  height: 773px;
+  opacity: 0.51;
+}
+.skopsko-kale {
+  position: absolute;
+  top: 104px;
+  left: 113px;
+  font-size: var(--font-size-31xl);
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.castle,
+.castle1,
+.div,
+.skopje,
+.skopje-fortress {
+  position: absolute;
+  top: 272px;
+  left: 198px;
+  font-family: var(--font-calibri);
+  opacity: 0.9;
+}
+.castle,
+.castle1,
+.div,
+.skopje-fortress {
+  top: 536px;
+}
+.castle,
+.castle1,
+.div {
+  top: 415px;
+  left: 212px;
+}
+.castle1,
+.div {
+  top: 679px;
+}
+.div {
+  top: 822px;
+}
+.adress,
+.city,
+.contact,
+.location,
+.object-type,
+.pening-hours {
+  position: absolute;
+  top: 217px;
+  left: 180px;
+  font-size: var(--font-size-21xl);
+  opacity: 0.9;
+}
+.adress,
+.contact,
+.location,
+.object-type,
+.pening-hours {
+  top: 481px;
+}
+.contact,
+.location,
+.object-type,
+.pening-hours {
+  top: 359px;
+}
+.contact,
+.location,
+.pening-hours {
+  left: 791px;
+}
+.contact,
+.pening-hours {
+  top: 623px;
+  left: 180px;
+}
+.contact {
+  top: 766px;
+}
+.image-2-icon {
+  position: absolute;
+  top: 415px;
+  left: 791px;
+  width: 592px;
+  height: 416px;
+  object-fit: cover;
+}
+.ack-to-main {
+  text-transform: lowercase;
+}
+.back-to-main-container {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  text-decoration: underline;
+  opacity: 0.89;
+  cursor: pointer;
+}
+.results-information {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-impact);
+}

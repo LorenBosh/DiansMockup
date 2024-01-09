@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-impact: Impact;
+  --font-calibri: Calibri;
+
+  /* font sizes */
+  --font-size-16xl: 35px;
+  --font-size-21xl: 40px;
+  --font-size-31xl: 50px;
+  --font-size-11xl: 30px;
+  --font-size-6xl: 25px;
+  --font-size-xl: 20px;
+  --font-size-61xl: 80px;
+  --font-size-10xl: 29px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dimgray: #707070;
+  --color-gray: rgba(0, 0, 0, 0.53);
+  --color-lightgray-100: #cdcbc9;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+}

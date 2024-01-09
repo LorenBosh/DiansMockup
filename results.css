@@ -1,0 +1,172 @@
+.kale-den-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.results-child,
+.results-item {
+  position: absolute;
+  top: 160px;
+  left: 88px;
+  background-color: var(--color-black);
+  width: 1759px;
+  height: 890px;
+  opacity: 0.57;
+}
+.results-item {
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  opacity: 0.09;
+}
+.search-results {
+  position: absolute;
+  top: 99px;
+  left: 88px;
+  font-size: var(--font-size-31xl);
+  text-transform: uppercase;
+  font-family: var(--font-impact);
+  opacity: 0.89;
+}
+.results-inner {
+  top: 351px;
+}
+.rectangle-div,
+.results-child1,
+.results-inner {
+  position: absolute;
+  left: 119px;
+  background-color: var(--color-white);
+  width: 1627px;
+  height: 118px;
+  opacity: 0.45;
+}
+.rectangle-div {
+  top: 583px;
+}
+.results-child1 {
+  bottom: 157px;
+}
+.skopsko-kale1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.additional-information {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.castle2,
+.skopje1 {
+  position: absolute;
+  top: 0;
+}
+.skopje1 {
+  left: calc(50% + 455.5px);
+}
+.castle2 {
+  right: -1px;
+}
+.skopsko-kale-parent {
+  position: absolute;
+  top: 273px;
+  left: 137px;
+  width: 1531px;
+  height: 55px;
+  opacity: 0.89;
+}
+.additional-information1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+}
+.skopsko-kale-group {
+  position: absolute;
+  top: 505px;
+  left: 137px;
+  width: 1531px;
+  height: 55px;
+  opacity: 0.89;
+}
+.group-div,
+.skopsko-kale-container,
+.skopsko-kale-parent1,
+.skopsko-kale-parent2 {
+  position: absolute;
+  top: 727px;
+  left: 137px;
+  width: 1531px;
+  height: 55px;
+  opacity: 0.89;
+}
+.group-div,
+.skopsko-kale-parent1,
+.skopsko-kale-parent2 {
+  top: 378px;
+}
+.skopsko-kale-parent1,
+.skopsko-kale-parent2 {
+  top: 610px;
+}
+.skopsko-kale-parent2 {
+  top: 832px;
+}
+.name {
+  left: 0;
+}
+.city1,
+.name,
+.object-type1 {
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+}
+.city1 {
+  left: calc(50% + 412.5px);
+}
+.object-type1 {
+  right: -1px;
+}
+.header {
+  position: absolute;
+  top: 190px;
+  left: 137px;
+  width: 1617px;
+  height: 36px;
+  opacity: 0.89;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-impact);
+}
+.ack-to-main1 {
+  text-transform: lowercase;
+}
+.back-to-main-container1 {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  font-size: var(--font-size-16xl);
+  text-decoration: underline;
+  font-family: var(--font-impact);
+  opacity: 0.89;
+  cursor: pointer;
+}
+.results {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-calibri);
+}

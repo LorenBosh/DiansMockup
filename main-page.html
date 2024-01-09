@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./main-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Impact:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Calibri:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-page">
+      <img
+        class="cover-canyon-matka3-icon"
+        alt=""
+        src="./public/covercanyonmatka3@2x.png"
+      />
+
+      <div class="main-page-child"></div>
+      <div class="find-every-macedonian">
+        Find every Macedonian historic and cultural heritage
+      </div>
+      <div class="search2" id="searchContainer">
+        <div class="search3">Search</div>
+      </div>
+      <div class="about-us2" id="aboutUsContainer">
+        <img class="path-2-icon" alt="" src="./public/path-2.svg" />
+
+        <div class="about-us3">ABOUT US</div>
+      </div>
+      <div class="contact1" id="contactContainer">
+        <div class="contact2">CONTACT</div>
+      </div>
+    </div>
+
+    <script>
+      var searchContainer = document.getElementById("searchContainer");
+      if (searchContainer) {
+        searchContainer.addEventListener("click", function (e) {
+          window.location.href = "./search.html";
+        });
+      }
+      
+      var aboutUsContainer = document.getElementById("aboutUsContainer");
+      if (aboutUsContainer) {
+        aboutUsContainer.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      
+      var contactContainer = document.getElementById("contactContainer");
+      if (contactContainer) {
+        contactContainer.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      </script>
+  </body>
+</html>

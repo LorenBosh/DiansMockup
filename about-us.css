@@ -1,0 +1,71 @@
+.about-us-ohrid-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1072px;
+  object-fit: cover;
+}
+.about-us-child,
+.about-us-item {
+  position: absolute;
+  background-color: var(--color-black);
+}
+.about-us-child {
+  top: -44px;
+  left: -68px;
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 2059px;
+  height: 1185px;
+  opacity: 0.08;
+}
+.about-us-item {
+  bottom: 57px;
+  left: 118px;
+  width: 1679px;
+  height: 851px;
+  opacity: 0.45;
+}
+.ack-to-main2 {
+  text-transform: lowercase;
+}
+.back-to-main-container2 {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  text-decoration: underline;
+  opacity: 0.89;
+  cursor: pointer;
+}
+.about-us1 {
+  position: absolute;
+  top: 104px;
+  left: 113px;
+  font-size: var(--font-size-31xl);
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.p {
+  margin: 0;
+}
+.div1 {
+  position: absolute;
+  top: 211px;
+  left: 142px;
+  font-size: var(--font-size-21xl);
+  color: #bfbfbf;
+  display: inline-block;
+  width: 1502px;
+  height: 763px;
+}
+.about-us {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1072px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-impact);
+}

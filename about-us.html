@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./about-us.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Impact:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Calibri:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-us">
+      <img
+        class="about-us-ohrid-icon"
+        alt=""
+        src="./public/about-us-ohrid@2x.png"
+      />
+
+      <div class="about-us-child"></div>
+      <div class="about-us-item"></div>
+      <div class="back-to-main-container2" id="bACKTOMAIN">
+        B
+        <span class="ack-to-main2">ACK TO MAIN PAGE</span>
+      </div>
+      <div class="about-us1">about us</div>
+      <div class="div1">
+        <p class="p">
+          Проект по предметот Дизајн и архитектура на софтвер чија цел е да
+          дадеме приказ на информациите за културно-историското наследство на
+          Македонија.
+        </p>
+        <p class="p">Членови:</p>
+        <p class="p">Марија Зографска(211111)</p>
+        <p class="p">Луна Делевска(211116)</p>
+        <p class="p">Филип Пенчиќ(211260)</p>
+        <p class="p">Никола Пендевски(212044)</p>
+        <p class="p">Лорен Бошкоски(211084)</p>
+        <p class="p">&nbsp;</p>
+        <p class="p">Нашата апликација ќе овозможува:</p>
+        <p class="p">1. Пребарување според име</p>
+        <p class="p">
+          2. Филтрирање според типот на објект (замок, верски, музеj, археолошко
+          пронаоѓалиште).
+        </p>
+        <p class="p">3. Филтрирање според град.</p>
+        <p class="p">4. Филтрирање според работно време.</p>
+        <p class="p">&nbsp;</p>
+      </div>
+    </div>
+
+    <script>
+      var bACKTOMAIN = document.getElementById("bACKTOMAIN");
+      if (bACKTOMAIN) {
+        bACKTOMAIN.addEventListener("click", function (e) {
+          window.location.href = "./main-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

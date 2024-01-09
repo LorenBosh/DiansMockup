@@ -1,0 +1,165 @@
+.kale-icon,
+.kaneo2-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  object-fit: cover;
+}
+.kale-icon {
+  height: 1080px;
+  display: none;
+}
+.kaneo2-icon {
+  height: 1200px;
+}
+.search-child,
+.search-item {
+  position: absolute;
+  background-color: var(--color-black);
+}
+.search-child {
+  top: -46px;
+  left: -40px;
+  width: 2031px;
+  height: 1203px;
+  opacity: 0.29;
+}
+.search-item {
+  top: 198px;
+  right: 38px;
+  width: 979px;
+  height: 623px;
+  opacity: 0.35;
+}
+.search-by-name,
+.search-icon {
+  position: absolute;
+  top: calc(50% - 20.5px);
+  left: 111px;
+  opacity: 0.9;
+}
+.search-icon {
+  top: calc(50% - 25.26px);
+  left: 14.98px;
+  width: 43.93px;
+  height: 47.03px;
+}
+.search-by-city-parent,
+.search-by-name-parent {
+  position: absolute;
+  right: 76px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 887px;
+  height: 73px;
+  color: var(--color-gray);
+}
+.search-by-name-parent {
+  top: 290px;
+  text-align: center;
+}
+.search-by-city-parent {
+  top: 433px;
+}
+.object-type2 {
+  position: absolute;
+  top: 576px;
+  left: 957px;
+  opacity: 0.78;
+}
+.group-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lightgray-100);
+  width: 32px;
+}
+.castle-parent {
+  position: absolute;
+  top: 630px;
+  left: 957px;
+  width: 109px;
+  height: 31px;
+  font-size: var(--font-size-6xl);
+}
+.museum {
+  position: absolute;
+  top: 1px;
+  right: -1px;
+  opacity: 0.78;
+}
+.museum-parent {
+  left: 1305px;
+  width: 132px;
+}
+.archeological-site-parent,
+.museum-parent,
+.temple-parent {
+  position: absolute;
+  top: 630px;
+  height: 31px;
+  font-size: var(--font-size-6xl);
+}
+.temple-parent {
+  left: 1126px;
+  width: 119px;
+}
+.archeological-site-parent {
+  right: 192px;
+  width: 231px;
+}
+.search1 {
+  position: absolute;
+  top: calc(50% - 20.5px);
+  left: calc(50% - 36.5px);
+  opacity: 0.9;
+}
+.search-parent,
+.what-are-you {
+  position: absolute;
+  text-align: center;
+}
+.search-parent {
+  top: 712px;
+  left: 1270px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 247px;
+  height: 73px;
+  cursor: pointer;
+  color: var(--color-gray);
+}
+.what-are-you {
+  top: 433px;
+  left: 91px;
+  font-size: var(--font-size-61xl);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 787px;
+  height: 378px;
+  opacity: 0.94;
+}
+.ack-to-main3 {
+  text-transform: lowercase;
+}
+.back-to-main-container3 {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  text-decoration: underline;
+  opacity: 0.89;
+  cursor: pointer;
+}
+.search {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-impact);
+}

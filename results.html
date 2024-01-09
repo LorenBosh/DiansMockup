@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./results.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Impact:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Calibri:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="results">
+      <img class="kale-den-icon" alt="" src="./public/kale-den@2x.png" />
+
+      <div class="results-child"></div>
+      <div class="results-item"></div>
+      <div class="search-results">Search Results</div>
+      <div class="results-inner"></div>
+      <div class="rectangle-div"></div>
+      <div class="results-child1"></div>
+      <div class="skopsko-kale-parent">
+        <div class="skopsko-kale1">Skopsko Kale</div>
+        <div class="additional-information" id="additionalInformationText">
+          Additional information&gt;&gt;&gt;
+        </div>
+        <div class="skopje1">Skopje</div>
+        <div class="castle2">Castle</div>
+      </div>
+      <div class="skopsko-kale-group">
+        <div class="skopsko-kale1">Skopsko Kale</div>
+        <div class="additional-information1">
+          Additional information&gt;&gt;&gt;
+        </div>
+        <div class="skopje1">Skopje</div>
+        <div class="castle2">Castle</div>
+      </div>
+      <div class="skopsko-kale-container">
+        <div class="skopsko-kale1">Skopsko Kale</div>
+        <div class="additional-information1">
+          Additional information&gt;&gt;&gt;
+        </div>
+        <div class="skopje1">Skopje</div>
+        <div class="castle2">Castle</div>
+      </div>
+      <div class="group-div">
+        <div class="skopsko-kale1">Skopsko Kale</div>
+        <div class="additional-information1">
+          Additional information&gt;&gt;&gt;
+        </div>
+        <div class="skopje1">Skopje</div>
+        <div class="castle2">Castle</div>
+      </div>
+      <div class="skopsko-kale-parent1">
+        <div class="skopsko-kale1">Skopsko Kale</div>
+        <div class="additional-information1">
+          Additional information&gt;&gt;&gt;
+        </div>
+        <div class="skopje1">Skopje</div>
+        <div class="castle2">Castle</div>
+      </div>
+      <div class="skopsko-kale-parent2">
+        <div class="skopsko-kale1">Skopsko Kale</div>
+        <div class="additional-information1">
+          Additional information&gt;&gt;&gt;
+        </div>
+        <div class="skopje1">Skopje</div>
+        <div class="castle2">Castle</div>
+      </div>
+      <div class="header">
+        <div class="name">Name</div>
+        <div class="city1">City</div>
+        <div class="object-type1">Object type</div>
+      </div>
+      <div class="back-to-main-container1" id="bACKTOMAIN">
+        B
+        <span class="ack-to-main1">ACK TO MAIN PAGE</span>
+      </div>
+    </div>
+
+    <script>
+      var additionalInformationText = document.getElementById(
+        "additionalInformationText"
+      );
+      if (additionalInformationText) {
+        additionalInformationText.addEventListener("click", function (e) {
+          window.location.href = "./results-information.html";
+        });
+      }
+      
+      var bACKTOMAIN = document.getElementById("bACKTOMAIN");
+      if (bACKTOMAIN) {
+        bACKTOMAIN.addEventListener("click", function (e) {
+          window.location.href = "./main-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

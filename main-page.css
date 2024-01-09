@@ -1,0 +1,102 @@
+.cover-canyon-matka3-icon,
+.main-page-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+.cover-canyon-matka3-icon {
+  object-fit: cover;
+}
+.main-page-child {
+  background-color: var(--color-black);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  opacity: 0.29;
+}
+.find-every-macedonian,
+.search3 {
+  position: absolute;
+  text-transform: uppercase;
+}
+.find-every-macedonian {
+  top: 380px;
+  left: 453px;
+  font-size: var(--font-size-61xl);
+  display: inline-block;
+  width: 1015px;
+  height: 378px;
+  opacity: 0.9;
+}
+.search3 {
+  top: 17.75px;
+  left: 110.75px;
+  letter-spacing: 1.5px;
+  -webkit-text-stroke: 0.5px #447d8c;
+}
+.search2 {
+  position: absolute;
+  top: 758px;
+  left: 769px;
+  border-radius: 61px;
+  background-color: var(--color-white);
+  width: 383px;
+  height: 99px;
+  cursor: pointer;
+  font-size: var(--font-size-31xl);
+  color: #477e8f;
+}
+.path-2-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.about-us3 {
+  position: absolute;
+  top: 1.5px;
+  left: 23.5px;
+  -webkit-text-stroke: 1px #859456;
+}
+.about-us2 {
+  position: absolute;
+  top: 71px;
+  left: 1308px;
+  width: 160px;
+  height: 41px;
+  cursor: pointer;
+  color: #c6d2d3;
+}
+.contact1,
+.contact2 {
+  position: absolute;
+  top: 2px;
+  left: 28px;
+}
+.contact1 {
+  top: 71px;
+  left: 1547px;
+  border-radius: 21px;
+  background-color: #7da65d;
+  width: 160px;
+  height: 41px;
+  cursor: pointer;
+  color: #c7d3d3;
+}
+.main-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1088px;
+  text-align: center;
+  font-size: var(--font-size-10xl);
+  color: var(--color-white);
+  font-family: var(--font-impact);
+}
